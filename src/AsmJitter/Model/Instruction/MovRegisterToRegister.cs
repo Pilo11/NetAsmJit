@@ -22,7 +22,7 @@ namespace AsmJitter.Model.Instruction
             var bytecode = new List<byte>();
 
             // Add operation byte
-            bytecode.Add(Constants.MOV_1632_REGISTER_1632_REGISTER);
+            bytecode.Add(Constants.MOV_1632_REGISTERMEMORY_1632_REGISTER);
 
             // Add register bytes as first operand (origin register as opcode digit) reference: http://ref.x86asm.net/coder32.html#modrm_byte_32
             bytecode.AddRange(_targetRegister.GetBytes((uint)_originRegister.Value));

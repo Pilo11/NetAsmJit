@@ -17,9 +17,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/Pilo11/NetAsmJit</RepositoryUrl>
-    <Version>1.0.1</Version>
-    <PackageVersion>1.0.1</PackageVersion>
-    <PackageReleaseNotes>Added possibility to use the ASM command PUSH with a signed 8bit constant</PackageReleaseNotes>
+    <Version>1.0.2</Version>
+    <PackageVersion>1.0.2</PackageVersion>
+    <PackageReleaseNotes>Added possibility to move a register pointered value to a register (f.e. MOV ECX, [ESP+3C])</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

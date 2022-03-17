@@ -34,6 +34,18 @@ namespace AsmJitterTest
                 0xc7, 0x43, 0x1c, 0x00, 0x00, 0x80, 0xC4
             }, codebytes);
         }
+        
+        [Fact]
+        public void TestLoadOffsetRegisterMemoryIntoRegister()
+        {
+            var shellcode = new Code();
+            shellcode.Mov(new Register(RegisterEnum.ECX_XMM1), new RegisterMemory(RegisterEnum.ESP_SIB_XMM4, 0x3C));
+            var codebytes = shellcode.GetBytes();
+            Assert.Equal(new byte[]
+            {
+                0x8B, 0x4C, 0x24, 0x3C
+            }, codebytes);
+        }
 
     }
 }

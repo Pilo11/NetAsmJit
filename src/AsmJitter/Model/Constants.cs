@@ -39,7 +39,9 @@ namespace AsmJitter.Model
 
         public const byte CMP_1632_REGISTER_1632_CONSTANT = 0x81;
 
-        public const byte MOV_1632_REGISTER_1632_REGISTER = 0x89;
+        public const byte MOV_1632_REGISTERMEMORY_1632_REGISTER = 0x89;
+        
+        public const byte MOV_1632_REGISTER_1632_REGISTERMEMORY = 0x8B;
 
         public const byte NOP = 0x90;
 

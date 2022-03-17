@@ -47,6 +47,12 @@ namespace AsmJitter
             return code;
         }
 
+        public static Code Mov(this Code code, Register targetRegister, RegisterMemory registerMemory)
+        {
+            code.Instructions.Add(new MovRegisterMemoryToRegister(targetRegister, registerMemory));
+            return code;
+        }
+
         public static Code Mov(this Code code, Register targetRegister, AbstractConst constant)
         {
             code.Instructions.Add(new MovConstantToRegister(targetRegister, constant));

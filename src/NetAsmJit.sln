@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsmJitter", "AsmJitter\AsmJitter.csproj", "{7B9CBD69-2FFC-45D5-99A1-125E09374883}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsmJitterTest", "AsmJitterTest\AsmJitterTest.csproj", "{FB4AF260-DEBE-44D3-B077-5984DE4BFF30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B9CBD69-2FFC-45D5-99A1-125E09374883}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B9CBD69-2FFC-45D5-99A1-125E09374883}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B9CBD69-2FFC-45D5-99A1-125E09374883}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B9CBD69-2FFC-45D5-99A1-125E09374883}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB4AF260-DEBE-44D3-B077-5984DE4BFF30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB4AF260-DEBE-44D3-B077-5984DE4BFF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB4AF260-DEBE-44D3-B077-5984DE4BFF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB4AF260-DEBE-44D3-B077-5984DE4BFF30}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

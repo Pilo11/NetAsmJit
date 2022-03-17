@@ -3,6 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Title>AsmJitter</Title>
     <Authors>Pilo11</Authors>
@@ -12,6 +17,9 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/Pilo11/NetAsmJit</RepositoryUrl>
+    <Version>1.0.1</Version>
+    <PackageVersion>1.0.1</PackageVersion>
+    <PackageReleaseNotes>Added possibility to use the ASM command PUSH with a signed 8bit constant</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -22,6 +22,12 @@ namespace AsmJitter
             code.Instructions.Add(new Push(register));
             return code;
         }
+        
+        public static Code Push(this Code code, EightBitConstant constant)
+        {
+            code.Instructions.Add(new Push(constant));
+            return code;
+        }
 
         public static Code Pop(this Code code, Register register)
         {

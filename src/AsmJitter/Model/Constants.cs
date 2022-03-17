@@ -18,6 +18,8 @@ namespace AsmJitter.Model
         public const byte PUSH_1632_REGISTER = 0x50;
 
         public const byte POP_1632_REGISTER = 0x58;
+        
+        public const byte PUSH_CONST_8 = 0x6A;
 
         public const byte JB_SHORT = 0x72;
 
